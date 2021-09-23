@@ -1,0 +1,62 @@
+.container-menu {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    dispaly: none;
+}
+
+.container-menuutama {
+    margin: auto;
+}
+
+.btn-utama {
+    width: 210px;
+    height: 110px;
+    margin: 30px 10px 0px 10px;
+}
+
+.card-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container-laporan {
+    margin: auto;
+}
+
+.btn-laporan {
+    width: 200px;
+    height: 100px;
+    margin: 40px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.btn-kembali {
+    font-weight: bold;
+    float: left;
+}
+
+.form-transaksi {
+    margin-bottom: 200px;
+}
+
+#loading { 
+    width: 50px;
+ height: 50px;
+  border-radius: 100%;
+   border: 5px solid #ccc; 
+   border-top-color: #007BFF; 
+   position: fixed; 
+   top: 0; 
+   left: 0; 
+   right: 0; bottom: 0;
+    margin: auto; 
+    z-index: 99; 
+    animation: putar 2s ease infinite; 
+    } @keyframes putar { from { transform: rotate(0deg); }
+     to { transform: rotate(360deg); 
+     }
+      }
+
